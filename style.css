@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#card {
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  margin-top: 25vh;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 7px;
+}
+
+p {
+  font-size: small;
+  justify-content: center;
+}
+
+input,button {
+  padding: 10px;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 7px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: darkgoldenrod;
+}
